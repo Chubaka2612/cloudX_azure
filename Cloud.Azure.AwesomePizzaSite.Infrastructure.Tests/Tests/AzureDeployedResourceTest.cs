@@ -6,6 +6,7 @@ using NUnit.Framework;
 using System;
 using System.Linq;
 using Cloud.Azure.AwesomePizzaSite.Data.Meta;
+
 namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Tests
 {
     public class AzureDeployedResourceTest { 

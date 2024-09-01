@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cloud.Azure.AwesomePizzaSite.Data\Cloud.Azure.AwesomePizzaSite.Data.csproj" />
     <ProjectReference Include="..\CloudX.Azure.Core\CloudX.Azure.Core.csproj" />
   </ItemGroup>
 

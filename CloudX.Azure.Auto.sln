@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudX.Azure.Core.Web", "CloudX.Azure.Core.Web\CloudX.Azure.Core.Web.csproj", "{B9FEC159-B590-4051-B0F4-EBA052A0A5D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudX.Azure.Core.Web", "CloudX.Azure.Core.Web\CloudX.Azure.Core.Web.csproj", "{B9FEC159-B590-4051-B0F4-EBA052A0A5D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudX.Azure.Core", "CloudX.Azure.Core\CloudX.Azure.Core.csproj", "{044C73FA-4F73-41EA-BDE6-C4ACA0707654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudX.Azure.Core", "CloudX.Azure.Core\CloudX.Azure.Core.csproj", "{044C73FA-4F73-41EA-BDE6-C4ACA0707654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Azure.AwesomePizzaSite.Web", "Cloud.Azure.AwesomePizzaSite.Web\Cloud.Azure.AwesomePizzaSite.Web.csproj", "{91F64FCC-75D4-472A-B4F1-AF7F225D7625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Azure.AwesomePizzaSite.Web", "Cloud.Azure.AwesomePizzaSite.Web\Cloud.Azure.AwesomePizzaSite.Web.csproj", "{91F64FCC-75D4-472A-B4F1-AF7F225D7625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Azure.AwesomePizzaSite.Data", "Cloud.Azure.AwesomePizzaSite.Data\Cloud.Azure.AwesomePizzaSite.Data.csproj", "{CAB994CF-D56C-4288-B7D2-E5A07E2F7D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Azure.AwesomePizzaSite.Data", "Cloud.Azure.AwesomePizzaSite.Data\Cloud.Azure.AwesomePizzaSite.Data.csproj", "{CAB994CF-D56C-4288-B7D2-E5A07E2F7D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Azure.AwesomePizzaSite.Web.Tests", "Cloud.Azure.AwesomePizzaSite.Web.Tests\Cloud.Azure.AwesomePizzaSite.Web.Tests.csproj", "{816258CA-02E7-4E88-9B5C-3DA36CCCFE27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Azure.AwesomePizzaSite.Web.Tests", "Cloud.Azure.AwesomePizzaSite.Web.Tests\Cloud.Azure.AwesomePizzaSite.Web.Tests.csproj", "{816258CA-02E7-4E88-9B5C-3DA36CCCFE27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests", "Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests\Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.csproj", "{5450C76C-E2BB-48E0-8366-DD9A0D2845EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests", "Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests\Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.csproj", "{5450C76C-E2BB-48E0-8366-DD9A0D2845EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
