@@ -5,7 +5,7 @@ using Microsoft.Azure.Management.Network.Models;
 using NUnit.Framework;
 using System;
 using System.Linq;
-
+using Cloud.Azure.AwesomePizzaSite.Data.Meta;
 namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Tests
 {
     public class AzureDeployedResourceTest { 
@@ -18,6 +18,7 @@ namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Tests
         string publicIpAddress = ConfigurationManager.Configuration["PublicIp"];
 
         [Test]
+        [Category(TestType.Infrustructure)]
         public void VirtualMachineResourceTest()
         {
             var expectedOS = "Linux";
@@ -37,6 +38,7 @@ namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Tests
 
 
         [Test]
+        [Category(TestType.Infrustructure)]
         public void PublicIpAddressResourceTest()
         {
             var vmResource = ArmSteps.GetVirtualMachineResourceByName(vmName);
@@ -51,6 +53,7 @@ namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Tests
         }
 
         [Test]
+        [Category(TestType.Infrustructure)]
         public void NetworkInterfaceResourceTest()
         {
             var vmResource = ArmSteps.GetVirtualMachineResourceByName(vmName);
@@ -64,6 +67,7 @@ namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Tests
         }
 
         [Test]
+        [Category(TestType.Infrustructure)]
         public void NetworkSecurityGroupResourceTest()
         {
             var vmResource = ArmSteps.GetVirtualMachineResourceByName(vmName);
@@ -106,6 +110,7 @@ namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Tests
         }
 
         [Test]
+        [Category(TestType.Infrustructure)]
         public void VirtualNetworkResourceTest()
         {
             var vmResource = ArmSteps.GetVirtualMachineResourceByName(vmName);
