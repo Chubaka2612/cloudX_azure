@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cloud.Azure.AwesomePizzaSite.Data\Cloud.Azure.AwesomePizzaSite.Data.csproj" />
+    <ProjectReference Include="..\CloudX.Azure.Core.Web\CloudX.Azure.Core.Web.csproj" />
+    <ProjectReference Include="..\CloudX.Azure.Core\CloudX.Azure.Core.csproj" />
+  </ItemGroup>
+
+</Project>
