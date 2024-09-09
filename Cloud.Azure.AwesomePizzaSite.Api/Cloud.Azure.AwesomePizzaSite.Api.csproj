@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SoftAPIClient" Version="1.2.3" />
+    <PackageReference Include="SoftAPIClient.RestSharpNewtonsoft" Version="1.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cloud.Azure.AwesomePizzaSite.Api\Cloud.Azure.AwesomePizzaSite.Api.csproj" />
     <ProjectReference Include="..\CloudX.Azure.Core\CloudX.Azure.Core.csproj" />
   </ItemGroup>
 

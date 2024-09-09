@@ -1,4 +1,4 @@
-﻿using Cloud.Azure.AwesomePizzaSite.Data.Model;
+﻿using Cloud.Azure.AwesomePizzaSite.Data.Model.UI;
 using Cloud.Azure.AwesomePizzaSite.Web.Pages.ManageIngredients;
 using CloudX.Azure.Core.Web.Waiter;
 using log4net;

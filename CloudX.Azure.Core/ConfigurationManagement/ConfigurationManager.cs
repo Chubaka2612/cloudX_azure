@@ -22,6 +22,7 @@ namespace CloudX.Azure.Core.ConfigurationManagement
 
         public static string SubscriptionId => Configuration["subscriptionId"];
 
+        public static string BaseApiUrl => Configuration["BaseApiUrl"];
 
         private static EnvironmentConfiguration _environmentConfiguration;
 

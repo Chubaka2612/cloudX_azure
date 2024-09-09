@@ -1,8 +1,8 @@
-﻿using Cloud.Azure.AwesomePizzaSite.Data.Model;
-using CloudX.Azure.Core.Utils;
+﻿using CloudX.Azure.Core.Utils;
 using CloudX.Azure.Core.Extensions;
+using Cloud.Azure.AwesomePizzaSite.Data.Model.UI;
 
-namespace Cloud.Azure.AwesomePizzaSite.Data.Service
+namespace Cloud.Azure.AwesomePizzaSite.Data.Service.UI
 {
     public class IngredientService
     {

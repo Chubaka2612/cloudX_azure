@@ -1,5 +1,7 @@
 ﻿
 
+using Newtonsoft.Json;
+
 namespace CloudX.Azure.Core.Utils
 {
     public static class CommonUtils
@@ -16,5 +18,11 @@ namespace CloudX.Azure.Core.Utils
             foreach (var obj in sequence)
                 action(obj);
         }
+
+        public static string WrapToJson(object value)
+        {
+            return JsonConvert.SerializeObject(value, Formatting.Indented);
+        }
+
     }
 }

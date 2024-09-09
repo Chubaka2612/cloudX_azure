@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 
 
-namespace Cloud.Azure.AwesomePizzaSite.Data.Model
+namespace Cloud.Azure.AwesomePizzaSite.Data.Model.UI
 {
     public class PizzaModel
     {

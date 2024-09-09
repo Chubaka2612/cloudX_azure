@@ -1,4 +1,4 @@
-﻿using Cloud.Azure.AwesomePizzaSite.Data.Model;
+﻿using Cloud.Azure.AwesomePizzaSite.Data.Model.UI;
 using Cloud.Azure.AwesomePizzaSite.Web.Pages.ManagePizza;
 using CloudX.Azure.Core.Extensions;
 using CloudX.Azure.Core.Web.Steps;

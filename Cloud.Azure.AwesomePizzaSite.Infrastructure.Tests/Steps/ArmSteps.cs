@@ -7,6 +7,9 @@ using Azure.ResourceManager.Network;
 using System.Linq;
 using System;
 using System.Collections.Generic;
+using Azure.ResourceManager.ContainerRegistry;
+using Azure.ResourceManager.AppContainers;
+using Azure.ResourceManager;
 namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Steps
 {
     public static class ArmSteps
@@ -75,5 +78,32 @@ namespace Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.Steps
             return ArmService.Instance.GetClient().GetNetworkSecurityGroupResource(new ResourceIdentifier(ni.Get().Value.Data.NetworkSecurityGroup.Id));
         }
 
+
+        public static ContainerRegistryResource GetContainerRegistryResource(string registryName)
+        {
+            Log.Info($"Obtain container registry resource by name {registryName}");
+
+            return ArmService.Instance.GetClient()
+                .GetContainerRegistryResource(
+                 new ResourceIdentifier($"/subscriptions/{SubscriptionId}/resourceGroups/{ResourceGroupName}/providers/Microsoft.ContainerRegistry/registries/{registryName}"));
+        }
+
+        public static ContainerAppResource GetContainerAppResource(string containerAppName)
+        {
+            Log.Info($"Obtain container app resource by name {containerAppName}");
+
+            return ArmService.Instance.GetClient()
+                .GetContainerAppResource(
+                 new ResourceIdentifier($"/subscriptions/{SubscriptionId}/resourceGroups/{ResourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}"));
+        }
+
+
+        public static ContainerAppManagedEnvironmentResource GetContainerAppEnvironmentResource(string containerAppEnv)
+        {
+            Log.Info($"Obtain container app environment resource by name {containerAppEnv}");
+
+            var containerAppsEnvironmentResourceId = ContainerAppManagedEnvironmentResource.CreateResourceIdentifier(SubscriptionId, ResourceGroupName, containerAppEnv);
+            return ArmService.Instance.GetClient().GetContainerAppManagedEnvironmentResource(containerAppsEnvironmentResourceId);
+        }
     }
 }

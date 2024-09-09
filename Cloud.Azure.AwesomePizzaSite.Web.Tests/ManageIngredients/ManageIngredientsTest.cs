@@ -2,13 +2,13 @@
 using CloudX.Azure.Core.Web;
 using NUnit.Framework;
 using Cloud.Azure.AwesomePizzaSite.Web.Tests.Meta;
-using Cloud.Azure.AwesomePizzaSite.Data.Service;
 using Cloud.Azure.AwesomePizzaSite.Web.Steps;
 using Cloud.Azure.AwesomePizzaSite.Web.Pages.ManageIngredients;
 using Cloud.Azure.AwesomePizzaSite.Web.Pages;
 using CloudX.Azure.Core.Utils;
 using CloudX.Azure.Core.Web.Steps;
 using Cloud.Azure.AwesomePizzaSite.Data.Meta;
+using Cloud.Azure.AwesomePizzaSite.Data.Service.UI;
 
 namespace Cloud.Azure.AwesomePizzaSite.Web.Tests.ManageIngredients
 {
