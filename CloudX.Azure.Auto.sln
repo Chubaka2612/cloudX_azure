@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Azure.AwesomePizzaSit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests", "Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests\Cloud.Azure.AwesomePizzaSite.Infrastructure.Tests.csproj", "{5450C76C-E2BB-48E0-8366-DD9A0D2845EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Azure.AwesomePizzaSite.Api", "Cloud.Azure.AwesomePizzaSite.Api\Cloud.Azure.AwesomePizzaSite.Api.csproj", "{F9F45EC2-8792-42B3-B79D-2594F2E74E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Azure.AwesomePizzaSite.Api.Tests", "Cloud.Azure.AwesomePizzaSite.Api.Tests\Cloud.Azure.AwesomePizzaSite.Api.Tests.csproj", "{23DB8E9D-4039-44C3-BDC6-E18E2257BE43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{5450C76C-E2BB-48E0-8366-DD9A0D2845EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5450C76C-E2BB-48E0-8366-DD9A0D2845EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5450C76C-E2BB-48E0-8366-DD9A0D2845EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F45EC2-8792-42B3-B79D-2594F2E74E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F45EC2-8792-42B3-B79D-2594F2E74E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F45EC2-8792-42B3-B79D-2594F2E74E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F45EC2-8792-42B3-B79D-2594F2E74E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DB8E9D-4039-44C3-BDC6-E18E2257BE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DB8E9D-4039-44C3-BDC6-E18E2257BE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DB8E9D-4039-44C3-BDC6-E18E2257BE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DB8E9D-4039-44C3-BDC6-E18E2257BE43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

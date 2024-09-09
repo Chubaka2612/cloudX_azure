@@ -19,9 +19,9 @@
             return string.Join(string.Empty, values);
         }
 
-        public static string RandomNumeric(int min, int max)
+        public static int RandomNumeric(int min, int max)
         {
-            return Random.Next(min, max).ToString();
+            return Random.Next(min, max);
         }
 
         public static string RandomString(int length)

@@ -200,5 +200,11 @@ namespace CloudX.Azure.Core.Utils
                 }
             });
         }
+
+        public static string ShouldContain(this string actualString, string expectedString)
+        {
+            IsTrue(actualString.Contains(expectedString), $"Check string '{actualString}' contains '{expectedString}'");
+            return actualString;
+        }
     }
 }
